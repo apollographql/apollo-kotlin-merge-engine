@@ -1,0 +1,11 @@
+query GetConferences1 {
+    conferences {
+        id
+    }
+}
+
+query GetConferences2 {
+    conferences {
+        name
+    }
+}

@@ -1,5 +1,8 @@
 [libraries]
+apollo-runtime = "com.apollographql.apollo:apollo-runtime:4.1.0"
+apollo-ast = "com.apollographql.apollo:apollo-ast:4.1.0"
 
 [plugins]
 kgp = { id = "org.jetbrains.kotlin.jvm", version = "2.0.21" }
-librarian = { id = "com.gradleup.librarian", version = "0.0.8-SNAPSHOT" }    
+librarian = { id = "com.gradleup.librarian", version = "0.0.7" }
+apollo = { id = "com.apollographql.apollo", version = "4.1.0" }
